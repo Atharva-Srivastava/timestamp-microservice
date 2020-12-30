@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Timestamp Microservice</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+    <h1>Timestamp Microservice</h1>
+    <hr />
+    <div class="container">
+      <h3>Example Usage:</h3>
+      <ul>
+        <li><a href="api/timestamp/2015-12-25">[https://timestamp-microservice.atharvasrivast1.repl.co]/api/timestamp/2015-12-25</a></li>
+        <li><a href="api/timestamp/1451001600000">[https://timestamp-microservice.atharvasrivast1.repl.co]/api/timestamp/1451001600000</a></li>
+      </ul>
+       <p>A request to the API by /api/timestamp/:date? with a valid date will return a JSON object with a unix key that is a Unix timestamp of the input date in milliseconds.</p>
+       <p>A request to the API by /api/timestamp/:date? with a valid date will return a JSON object with a utc key that is a string of the input date in the format: Thu, 01 Jan 1970 00:00:00 GMT.</p>
+       <p>An empty date parameter will return the current time in a JSON object with a unix as well as utc key.</p>
+       <p>The API handle dates that can be successfully parsed by new Date(date_string).</p>
+      <h3>Example Output:</h3>
+      <p>
+        <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+      </p>
+    </div>
+    
+  </body>
+</html>
