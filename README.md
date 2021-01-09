@@ -1,9 +1,10 @@
 
 # Timestamp Microservice
 
-Steps to run this repository:-
+To run this repository:-
 - Clone this repository from Github
 - In your Code Editor or IDE run "npm install" 
+- Run "node server.js to start the dvelopement server
 
 Features of this API:-
 
