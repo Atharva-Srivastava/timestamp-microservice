@@ -3,7 +3,7 @@
 
 To run this repository:-
 - Clone this repository from Github
-- In your Code Editor or IDE run "npm install" 
+- In your Code Editor or IDE run "npm install to install few necessary packages to run this API" 
 - Run "node server.js to start the dvelopement server
 
 Features of this API:-
