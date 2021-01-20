@@ -1,12 +1,12 @@
 
 # Timestamp Microservice
 
-To run this repository:-
-- Clone this repository from Github
+###To run this repository:-
+- Clone this repo from Github
 - In your Code Editor or IDE run "npm install to install few necessary packages to run this API" 
 - Run "node server.js to start the dvelopement server
 
-Features of this API:-
+###Features of this API:-
 
 A request to the API by /api/timestamp/:date? with a valid date will return a JSON object with a unix key that is a Unix timestamp of the input date in milliseconds
 
